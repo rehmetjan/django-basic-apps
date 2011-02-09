@@ -12,6 +12,7 @@ book_list = {
     'queryset': Book.objects.all(),
 }
 
+# this is books urls.py
 
 urlpatterns = patterns('django.views.generic.list_detail',
     url(r'^genres/(?P<slug>[-\w]+)/$',
